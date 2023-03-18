@@ -2,15 +2,13 @@
 <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
     <columns name="sales_order_columns">
-        <column name="customer_device" class="Teeela\CustomerDevice\Ui\Component\Listing\Column\CustomerDevice">
+        <column name="customer_device">
             <settings>
+                <label translate="true">Device</label>
+                <options class="Teeela\CustomerDevice\Model\Config\Source\Device"/>
                 <filter>select</filter>
                 <dataType>select</dataType>
-                <label translate="true">Device</label>
-                <options class="Teeela\CustomerDevice\Model\Config\Device"/>
             </settings>
         </column>
     </columns>
 </listing>
-
-
