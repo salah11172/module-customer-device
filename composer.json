@@ -1,0 +1,21 @@
+{
+  "name": "teeela/module-customer-device",
+  "version": "1.0.0",
+  "description": "determines the placed orders source device [desktop, mobile].and shows it on the sales order grid",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-sales": "103.0.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Teeela\\CustomerDevice\\": ""
+    }
+  }
+}
