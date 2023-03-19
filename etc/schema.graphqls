@@ -1,0 +1,4 @@
+type CustomerOrder @doc(description: "Contains details about each of the customer's orders.") {
+    customer_device: String @doc(description: "Determines the placed orders source device.")
+    @resolver(class: "\\Teeela\\CustomerDevice\\Model\\Resolver\\OrderAttributeSetCustomerDeviceResolver")
+}
