@@ -13,7 +13,7 @@ This module adds more detailed information to the admin order grid. Initially, a
 1-Dwonload Extansion code <br>
 2-Create a folder and name it <strong>Teeela</strong> <br>
 3-Inside Teeela Folder Create a folder and name it <strong>CustomerDevice</strong><br>
-4-Copy the contents of the folder you downloaded into CustomerDevice Folder
+4-Copy the contents of the folder you downloaded into CustomerDevice Folder<br>
 5-Run Following  Commands
 
 ```
